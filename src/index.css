@@ -1,0 +1,32 @@
+body,
+html {
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+
+#root {
+  background-color: #f3f3f3;
+}
+
+.control-arrow {
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+}
+
+.cowHeading-appear {
+  opacity: 0.01;
+}
+
+.cowHeading-appear .cowHeading-appear-active {
+  opacity: 1;
+  transition: opacity 1s ease-in;
+}
+.sidebarIcon-appear {
+  opacity: 0.01;
+}
+
+.sidebarIcon-appear .sidebarIcon-appear-active {
+  opacity: 1;
+  transition: opacity 2s ease-in;
+}
